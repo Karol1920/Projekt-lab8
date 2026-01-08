@@ -1,16 +1,15 @@
 #include "gauss.h"
 
 int select_pivot(MatrixSystem *sys, int col) {
-    int max_row = col;
-    double max_val = fabs(sys->A[col][col]);
+    int best_i = col;
 
     for (int i = col + 1; i < sys->n; i++) {
-        if (fabs(sys->A[i][col]) > max_val) {
-            max_val = fabs(sys->A[i][col]);
-            max_row = i;
+        double val = fabs(sys->A[i][col]);
+        if (val > fabs(sys->A[best_i][col])) {
+            best_i = i;
         }
     }
-    return max_row;
+    return best_i;
 }
 
 int gauss(MatrixSystem *sys) {
