@@ -3,7 +3,7 @@
 int select_pivot(MatrixSystem *sys, int col) {
     int max_row = col;
     double max_val = fabs(sys->A[col][col]);
-    //
+
     for (int i = col + 1; i < sys->n; i++) {
         if (fabs(sys->A[i][col]) > max_val) {
             max_val = fabs(sys->A[i][col]);
