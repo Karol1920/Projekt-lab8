@@ -1,6 +1,7 @@
 # Domek 7×10 m — rzuty koncepcyjne
 
-Koncepcyjne rzuty z **wymiarami ścian wewnętrznych** i **powierzchniami pomieszczeń** (P.U. łącznie **80,0 m²**).
+Układ z **pierwszej wersji** + wymiary ścian wewnętrznych i powierzchnie pomieszczeń.
+P.U. łącznie **80,0 m²**.
 
 ## Pliki
 
@@ -10,29 +11,31 @@ Koncepcyjne rzuty z **wymiarami ścian wewnętrznych** i **powierzchniami pomies
 | [`assets/parter-rzut.png`](assets/parter-rzut.png) | Podgląd parteru |
 | [`assets/poddasze-rzut.png`](assets/poddasze-rzut.png) | Podgląd poddasza |
 
-## Parter — pomieszczenia
+## Parter (układ 1. wersji)
 
-| Pomieszczenie | Wymiary (światło) | Powierzchnia |
-|---------------|-------------------|--------------|
+Blok nocny przy północy: sypialnia → garderoba (wejście ze sypialni) → łazienka → schody przy wschodzie.
+Salon otwarty: aneks w SW, kominek na W, stół, kanapa naprzeciw TV, drzwi przesuwne na S.
+
+| Pomieszczenie | Wymiary | Pow. |
+|---|---|---|
 | Sypialnia | 3,80 × 3,15 m | 12,0 m² |
 | Garderoba | 1,25 × 3,15 m | 3,9 m² |
 | Łazienka | 2,35 × 3,15 m | 7,4 m² |
 | Salon z aneksem | 7,40 × 3,85 m | 28,5 m² |
-| Schody / komunikacja | pas 2,60 m | 6,5 m² |
-| **Razem** | | **≈ 58,3 m²** |
+| Schody | pas 2,60 m | 6,5 m² |
+| **Razem** | | **58,3 m²** |
 
-## Poddasze — pomieszczenia
+## Poddasze (układ 1. wersji)
 
-| Pomieszczenie | Wymiary (światło) | Pow. w obrysie | P.U. |
-|---------------|-------------------|----------------|------|
-| Sypialnia 1 | 4,45 × 5,40 m | 24,0 m² | 9,0 m² |
-| Sypialnia 2 | 2,95 × 2,55 m | 7,5 m² | 5,5 m² |
-| Łazienka (nad parterem) | 2,35 × 2,85 m | 6,7 m² | 5,0 m² |
-| Schowek | 0,60 × 2,85 m | 1,7 m² | 1,0 m² |
-| Hall | pas 2,60 m | — | 1,2 m² |
-| **Razem** | | | **≈ 21,7 m²** |
+Sypialnia 1 na całym zachodzie · sypialnia 2 na całym wschodzie · rdzeń: łazienka N + hall + schody U od S.
 
-**Parter + poddasze = 58,3 + 21,7 = 80,0 m².**
+| Pomieszczenie | Wymiary | P.U. |
+|---|---|---|
+| Sypialnia 1 | 4,45 × 5,40 m | 9,0 m² |
+| Sypialnia 2 | 2,60 × 5,40 m | 5,5 m² |
+| Łazienka (nad parterem) | 2,35 × 2,85 m | 5,0 m² |
+| Schowek | 0,60 × 2,85 m | 1,0 m² |
+| Hall | — | 1,2 m² |
+| **Razem** | | **21,7 m²** |
 
-Wymiary w świetle działówek (~12 cm). Obrys: 10,00 × 7,00 m.
-P.U. poddasza po redukcji stref kolankowych (h &lt; 1,90 / 2,20 m).
+**Parter + poddasze = 80,0 m².**
